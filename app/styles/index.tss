@@ -70,11 +70,13 @@
 }
 
 "#btnSearch" : {
-	width : 80,
+	width : 49,
 	height : 30,
 	right : 10,
 	borderRadius : 3,
-	backgroundColor : "white"
+	backgroundColor : "white",
+	text: "Search",
+	backgroundImage : "search-icon.png"
 }
 
 "#lblCompanyName" : {

@@ -60,7 +60,7 @@ function searchYQL() {
          
         //raphael expects an array of arrays so lets do that
         var formattedChartData = [chartData];
-         
+        console.log(formattedChartData); 
         //fire an event that will pass the chart data across to the chart.html file
         //where it will be rendered by the Raphael JS chart engine
         Ti.App.fireEvent('renderChart', { data: formattedChartData, startDate:  todayMinus12Weeks, endDate: today } );    
