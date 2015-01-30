@@ -1,0 +1,26 @@
+<Alloy>
+	<Window class="container">
+		<Label id="title">Search Quotes</Label>
+		<ScrollView id="scrollArea">
+			<View id="searchBox">
+				<TextField id="txtStockCode" hintText="Stock code, e.g. AAPL" autocapitalization="Titanium.UI.TEXT_AUTOCAPITIALIZATION_ALL" autoCorrect="false"></TextField>
+				<Button id="btnSearch" onClick="searchYQL"></Button>
+			</View>
+			<View id="quoteInfoBox">
+				<Label id="lblCompanyName"></Label>
+				<Label id="lblDaysLow"></Label>
+				<Label id="lblDaysHigh"></Label>
+				<Label id="lblLastOpen"></Label>
+				<Label id="lblLastClose"></Label>
+				<Label id="lblVolume"></Label>
+			</View>
+			<View id="quoteChartBox">
+				<Label id="lblChartName"></Label>
+				<WebView id="webview"></WebView>
+				<Label id="twelveWeekStartLabel"></Label>
+				<Label id="twelveWeekEndLabel"></Label>
+			</View>
+			<View id="emptyView"></View>
+		</ScrollView>	
+	</Window>
+</Alloy>

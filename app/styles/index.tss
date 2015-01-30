@@ -1,0 +1,212 @@
+".container": {
+	backgroundColor:"#000"
+}
+
+"#title" : {
+	color : "#fff",
+	height: 20,
+	width: Ti.UI.SIZE,
+	top: 20,
+	textAlign : 'center',
+	font : {
+		fontSize : 15,
+		fontFamily : "Helvetica",
+		fontWeight :"bold"
+	}
+}
+
+"ScrollView" : {
+	top : 40,
+	width : 320,
+	height: 420,
+	conTentHeight : "auto"
+}
+
+"#searchBox" : {
+	width : 300,
+	left : 10,
+	top : 10,
+	height : 50,
+	borderRadius : 5,
+	backgroundColor:"#D99999"
+}
+
+"#quoteInfoBox" : {
+	width : 300,
+	left : 10,
+	top : 70,
+	height : 200,
+	borderRadius : 5,
+	backgroundColor : "#E6DED1"
+}
+
+ "#quoteChartBox" : {
+ 	width : 300,
+	left : 10,
+	top : 280,
+	height : 300,
+	borderRadius : 5,
+	backgroundColor : "yellow",
+	backgroundImage : "Default-Portrait-667h@2x.png"
+ }
+"#emptyView" : {
+	height : 10,
+	top : 580,
+	backgroundColor : "white"
+}
+
+"#txtStockCode" : {
+	borderWidth : 0,
+	width : 200,
+	left : 10,
+	height : 30,
+	font : {
+		fontSize : 14,
+		fontColor: '#262626',
+		fontFamily : "Helvetica"
+	},
+	autocorrect : false,
+	autocapitalization : Titanium.UI.TEXT_AUTOCAPITALIZATION_ALL
+}
+
+"#btnSearch" : {
+	width : 80,
+	height : 30,
+	right : 10,
+	borderRadius : 3,
+	backgroundColor : "white"
+}
+
+"#lblCompanyName" : {
+	width : 280,
+	height : 30,
+	left : 10,
+	top : 10,
+	color : "#003366",
+	font : {
+		fontSize : 17,
+		fontWeigth : 'bold',
+		fontFamily : "Helvetica"
+	},
+	text : "No company selected"
+}
+
+"#lblDaysLow" : {
+	width : 280,
+	height : 20,
+	left : 10,
+	top : 50,
+	color : "#000",
+	font : {
+		fontSize : 14,
+		fontWeigth : 'bold',
+		fontFamily : "Helvetica"
+	},
+	text : "Days Low: "	
+}
+
+"#lblDaysHigh" : {
+	width : 280,
+	height : 20,
+	left : 10,
+	top : 80,
+	color : "#000",
+	font : {
+		fontSize : 14,
+		fontWeigth : 'bold',
+		fontFamily : "Helvetica"
+	},
+	text : "Days High: "		
+}
+"#lblLastOpen" : {
+	width : 280,
+	height : 20,
+	left : 10,
+	top : 110,
+	color : "#000",
+	font : {
+		fontSize : 14,
+		fontWeigth : 'bold',
+		fontFamily : "Helvetica"
+	},
+	text : "Last Open: "	
+}
+"#lblLastClose" : {
+	width : 280,
+	height : 20,
+	left : 10,
+	top : 140,
+	color : "#000",
+	font : {
+		fontSize : 14,
+		fontWeigth : 'bold',
+		fontFamily : "Helvetica"
+	},
+	text : "Last Close: "		
+}
+"#lblVolume" : {
+	width : 280,
+	height : 20,
+	left : 10,
+	top : 170,
+	color : "#000",
+	font : {
+		fontSize : 14,
+		fontWeigth : 'bold',
+		fontFamily : "Helvetica"
+	},
+	text : "Volume: "	
+}
+"#lblChartName" : {
+	width : 280,
+	height : 30,
+	left : 10,
+	top : 10,
+	color : "#003366",
+	font : {
+		fontSize : 17,
+		fontWeigth : 'bold',
+		fontFamily : "Helvetica"
+	},
+	text : "12 Week Historical Chart: "	
+}
+
+"#webview" : {
+	width : 280,
+	height : 240,
+	left : 10,
+	top : 40,
+	url : 'chart.html'	
+}
+
+"#twelveWeekStartLabel" : {
+	width : 100,
+	height : 10,
+	left : 10,
+	top : 285,
+	textAlign : 'left',
+	color : "#000",
+	font : {
+		fontSize : 9,
+		fontWeigth : 'bold',
+		fontFamily : "Helvetica"
+	},
+	backgroundColor : "red",
+	text : "I am a start"	
+}
+
+"#twelveWeekEndLabel" : {
+	width : 100,
+	height : 10,
+	right : 10,
+	top : 285,
+	textAlign : 'right',
+	color : "#000",
+	font : {
+		fontSize : 9,
+		fontWeigth : 'bold',
+		fontFamily : "Helvetica"
+	},
+	backgroundColor : "yellow",
+	text : "I am a end"	
+}
